@@ -1,0 +1,28 @@
+{
+  "name": "get-base",
+  "version": "0.0.0",
+  "description": "A simple command-line tool to get base.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mmarcon/base.git"
+  },
+  "keywords": [
+    "base",
+    "get-base",
+    "boilerplate",
+    "html5"
+  ],
+  "author": "Massimiliano Marcon (me@marcon.me)",
+  "license": "MIT",
+  "bin": {
+    "get-base": "./bin/get-base"
+  },
+  "dependencies": {
+    "request": "2.21.0",
+    "unzip": "~0.1.7"
+  }
+}
